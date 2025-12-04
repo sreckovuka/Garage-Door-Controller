@@ -11,9 +11,9 @@ import blynklib
 import ntptime
 
 # ==== Configuration ====
-SSID = "VUK"
-PASSWORD = "thisisapassword"
-BLYNK_AUTH = "Ndu8-u0eQq05Nvs3LmY-SLyPcPzIS3AD"
+SSID = "xxx"
+PASSWORD = "password"
+BLYNK_AUTH = "xxx"
 SETTINGS_FILE = "gate_schedule.json"
 
 # ==== Pins ====
@@ -262,3 +262,4 @@ try:
     asyncio.run(main())
 except KeyboardInterrupt:
     print("Stopped")
+
